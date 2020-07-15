@@ -1,6 +1,6 @@
 # Chatbot
 
-[Click here for the live website[(...)
+[Click here for the live website](...)
 
 ## What
 
@@ -19,14 +19,14 @@ This chatbot includes....
 
 #### Pending changes
 
-*...
-*...
-*...
+* ...
+* ...
+* ...
 
 
 ## Why
 
-
+This project was developed to consolidate 
 
 ## When
 
@@ -46,6 +46,12 @@ This project was created within three days from 15/07/2020 - 17/07/2020.
 * CSS
   * Bootstrap framwork
 * JavaScript
+
+#### Resources
+
+* UI: [Bootsnipp](https://bootsnipp.com/snippets/1ea0N)
+* ....
+
 
 ## Who
 
