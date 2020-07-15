@@ -1,9 +1,10 @@
 # Chatbot
 
+[Click here for the live website[(...)
 
 ## What
 
-__A Chatbot__
+__A Chatbot__ to help reduce loneliness in the world, one word at a time. 
 
 
 #### Features
@@ -14,6 +15,13 @@ This chatbot includes....
 * Multiple greetings...
 * Yes or no responses...
 * Goodbye message...
+
+
+#### Pending changes
+
+*...
+*...
+*...
 
 
 ## Why
@@ -34,11 +42,17 @@ This project was created within three days from 15/07/2020 - 17/07/2020.
 
 #### Languages & tools
 
-
+* HTML
+* CSS
+  * Bootstrap framwork
+* JavaScript
 
 ## Who
 
 * Ines Mathy
 * Mathieu Herbos
 * Ashleigh Templeton
+
+
+
 
