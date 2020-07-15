@@ -62,7 +62,7 @@ function welcome() {
 }
 
 function chat() {
-    let userMessage = document.getElementById("userMessage").value
+    let userMessage = document.getElementById("write_msg").value
     let check = false;
 
 
@@ -99,7 +99,7 @@ document.getElementById("btnSubmit").addEventListener("click", function () {
 
 
 
-document.getElementById("userMessage").addEventListener("keyup", function (event) {
+document.getElementById("write_msg").addEventListener("keyup", function (event) {
     if (event.keyCode === 13) {
         event.preventDefault();
         chat()
