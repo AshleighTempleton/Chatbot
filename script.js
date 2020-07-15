@@ -50,7 +50,9 @@ const noAns = [
 const wrongAns = "Purr, I only understand 'yes' or 'no' answers, please try again";
 const wrongAns3 = "Wtf is wrong with you? Stop clicking and get out of here!";
 
-var k = 0
+const bye
+
+let k = 0
 
 /* TBD where to link */
 function welcome() {
@@ -90,6 +92,8 @@ function chat() {
             console.log(k)
         }
     }
+
+    botMessage.innerHTML = "Ok then, bye for now!"
 }
 
 
