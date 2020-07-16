@@ -40,20 +40,20 @@ The project was developed to consolidate our knowledge of JS and its integration
 This project was created within three days from 15/07/2020 - 17/07/2020. 
 
 * Day 1:
- * Defining the structure
- * Finding a UI
- * Establishing core code
+  * Defining the structure
+  * Finding a UI
+  * Establishing core code
 
 * Day 2: 
- * Consolidation of code 
- * Verification of features and functionality
- * Establishing a list of potential bonus features 
+  * Consolidation of code 
+  * Verification of features and functionality
+  * Establishing a list of potential bonus features 
  
 * Day 3:
- * Adding final bonus features
- * Ensuring all code is functioning well by the afternoon 
- * Cleaning code 
- * Finalising GitHub documents & readme for final submit
+  * Adding final bonus features
+  * Ensuring all code is functioning well by the afternoon 
+  * Cleaning code 
+  * Finalising GitHub documents & readme for final submit
 
 ## How
 
