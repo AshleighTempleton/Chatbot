@@ -1,51 +1,30 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet"
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<link href="style.css" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet">
+        <title>BMO BOT</title>
+    </head>
 
 <body>
-<div class="container">
-<h3 class=" text-center">Messaging</h3>
-<div class="messaging">
-      <div class="inbox_msg">
-        <div class="mesgs">
-          <div class="msg_history">
-            <!-- html part for USER-->
-            <div class="incoming_msg">
-              <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-              <div class="received_msg">
-                <div class="received_withd_msg">
-                  <p>Test which is a new approach to have all
-                    solutions</p>
-                  <span class="time_date"> 11:01 AM    |    June 9</span></div>
-              </div>
-            </div>
-            <!-- html part for BOT-->
-            <div class="outgoing_msg">
-              <div id="botMessage">
-                <p>Test which is a new approach to have all
-                  solutions</p>
-                <span class="time_date"> 11:01 AM    |    June 9</span> </div>
-            </div>
-          <!--Text area for user to write-->
-          <div class="type_msg">
-            <div class="input_msg_write">
-              <input type="text" id="write_msg" placeholder="Type a message" />
-              <button id="btnSubmit" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-            </div>
-          </div>
+    <div id='bodybox'>
+        <div id='chatborder'>
+          <p id="chatlog7" class="chatlog">&nbsp;</p>
+          <p id="chatlog6" class="chatlog">&nbsp;</p>
+          <p id="chatlog5" class="chatlog">&nbsp;</p>
+          <p id="chatlog4" class="chatlog">&nbsp;</p>
+          <p id="chatlog3" class="chatlog">&nbsp;</p>
+          <p id="chatlog2" class="chatlog">&nbsp;</p>
+          <p id="chatlog1" class="chatlog">&nbsp;</p>
+          <input type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
+          <button id="btnSubmit" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
         </div>
+        <br>
+        <br>
+
+        <center><img src="https://raw.githubusercontent.com/inesmathy/chatbot/master/BMO.jpg" align="middle"></center>
       </div>
-    </div>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="script.js"></script>
-
-    </body>
-
-    </html>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

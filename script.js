@@ -1,121 +1,132 @@
+//links
+//http://eloquentjavascript.net/09_regexp.html
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
-//let userMessage = document.getElementById("userMessage").value
-let botMessage = document.getElementById("botMessage")
-const greetings = [
-    "Meow meow! Are you feeling well today?",
-    "Puuuurrrrrrr, will you be my friend?",
-    "Hey! Cats are the best, don't you think?",
-    "Meoooowww ~ Can I have your number?"
-]
-
-const yes = [
-    "Yay that's great",
-    "Oh thats nice :)",
-    "I knew it!",
-    "Cool bro",
-    "Meowwww, awesome!"
-]
-
-const yesAns = [
-    "Yes",
-    "yes",
-    "YES",
-    "yeah",
-    "Yeah",
-    "oui",
-    "Oui",
-    "OUI",
-    "ouais",
-    "Ouais"
-]
-
-const no = [
-    "That's a shame...",
-    "Well ok then.",
-    "Whatever!",
-    "Fine, be that way."
-]
-
-const noAns = [
-    "no",
-    "No",
-    "NO",
-    "no way",
-    "NO WAY",
-    "non",
-    "Non",
-    "NON"
-]
-
-const wrongAns = "Purr, I only understand 'yes' or 'no' answers, please try again";
-const wrongAns3 = "Wtf is wrong with you? Stop clicking and get out of here!";
-
-var k = 0
-
-/* TBD where to link */
-function welcome() {
-    let userName = document.getElementById("userName").value
-    let greetRan = Math.floor(Math.random() * greetings.length);
-    //change to loading page greeting
-    botMessage.innerHTML = greetings[greetRan];
-    console.log(userName)
-}
-
-function chat() {
-    let userMessage = document.getElementById("write_msg").value
-    let check = false;
+ 
+const yes = ["Yay that's great","Oh thats nice :)","I knew it!","Cool bro","Meowwww, awesome!"]; // if user input is one of the yesAns strings
+const noAns = ["no","No","NO","no way","NO WAY","non","Non","NON"]; // all of the accepted "no" answers
+const yesAns = ["Yes","yes","YES","yeah","Yeah","oui","Oui","OUI","ouais","Ouais"]; // all of the accepted "yes" answers
+const no = ["That's a shame...","Well ok then.","Whatever!","Fine, be that way."]; // if the user input one of the yesAns strings
+const wrongAns = "Purr, I only understand 'yes' or 'no' answers, please try again"; // if the user input another thing than yes or no
+const wrongAns3 = "Wtf is wrong with you? Stop clicking and get out of here!"; // string for 3 times wrong user input answers
 
 
-    for (let i = 0; i < yesAns.length; i++) {
-        if (userMessage == yesAns[i]) {
-            let yesRan = Math.floor(Math.random() * yes.length);
-            botMessage.innerHTML = yes[yesRan];
+
+var k = 0 // Declaring the variable for the numbers of times the user input wrong answer
+
+function chatbotResponse() { // function of the chatbot
+  
+  
+  let check = false; // boolean wich check the answer user
+  
+
+    for (let i = 0; i < yesAns.length; i++) { // string from 0, while the value of i is smaller than the yesAns array lenght, i +1 evey loop
+      
+        if (lastUserMessage == yesAns[i]) { // if the user input is equal to one of the accepted "yes" answers strings 
+           
+            
+            let yesRan = Math.floor(Math.random() * yes.length); // create a random answer from the "yes" bot answers
+            botMessage = yes[yesRan]; // the chatbot output randomly one if his yes answers strings
             check = true;
         }
-        else if (userMessage == noAns[i]) {
-            let noRan = Math.floor(Math.random() * no.length)
-            botMessage.innerHTML = no[noRan];
+        else if (lastUserMessage == noAns[i]) {  // if the user input is equal to one of the accepted "no" answers strings
+            
+            
+            let noRan = Math.floor(Math.random() * no.length); // create a random answer from the "no" bot answers
+            botMessage = no[noRan]; // // the chatbot output randomly one if his "no" answers strings
             check = true;
         }
     }
 
-    if (check == false) {
-        if (k < 3) {
-            botMessage.innerHTML = wrongAns;
-            console.log(k);
-            k++
+    if (check == false) { // if the user input is false and not equal to the accepted users answers "yes" or "no"
+        if (k < 2) { // if the wrong input "no" or "yes" anwer is input less than 3 times
+          
+          
+            botMessage = wrongAns; // output "Purr, I only understand 'yes' or 'no' answers, please try again"
+            console.log(k); // test just for the console
+            k++ // each input of the wrong anwer k + 1
         }
-        else {
-            botMessage.innerHTML = wrongAns3;
-            console.log(k)
+        else { // if is input 3 times
+          
+            botMessage= wrongAns3; // output "Wtf is wrong with you? Stop clicking and get out of here!"
+            console.log(k) // test just for the console 
         }
     }
 }
 
-
-document.getElementById("btnSubmit").addEventListener("click", function () {
-    chat()
+document.getElementById("btnSubmit").addEventListener("click", function () { // send the message when the button is clicked
+    newEntry()
 });
 
+//****************************************************************
+//MESSAGES OUTPUTS IN THE CHATBOX
 
+var messages = [], //array that hold the record of each string in chat
+lastUserMessage = "", //keeps track of the most recent input string from the user
+botMessage = "", //var keeps track of what the chatbot is going to say
+botName = 'BMO Bot', //name of the chatbot
+talking = true; //when false the speach function doesn't work
 
-document.getElementById("write_msg").addEventListener("keyup", function (event) {
-    if (event.keyCode === 13) {
-        event.preventDefault();
-        chat()
+//this runs each time enter is pressed.
+//It controls the overall input and output
+function newEntry() {
+  //if the message from the user isn't empty then run 
+  if (document.getElementById("chatbox").value != "") {
+    //pulls the value from the chatbox ands sets it to lastUserMessage
+    lastUserMessage = document.getElementById("chatbox").value;
+    //sets the chat box to be clear
+    document.getElementById("chatbox").value = "";
+    //adds the value of the chatbox to the array messages
+    messages.push(lastUserMessage);
+    //Speech(lastUserMessage);  //says what the user typed outloud
+    //sets the variable botMessage in response to lastUserMessage
+    chatbotResponse();
+    //add the chatbot's name and message to the array messages
+    messages.push("<b>" + botName + ":</b> " + botMessage);
+    // says the message using the text to speech function written below
+    Speech(botMessage);
+    //outputs the last few array elements of messages to html
+    for (var i = 1; i < 8; i++) {
+      if (messages[messages.length - i])
+        document.getElementById("chatlog" + i).innerHTML = messages[messages.length - i];
     }
-});
+  }
+}
 
+//text to Speech
+//https://developers.google.com/web/updates/2014/01/Web-apps-that-talk-Introduction-to-the-Speech-Synthesis-API
+function Speech(say) {
+  if ('speechSynthesis' in window && talking) {
+    var utterance = new SpeechSynthesisUtterance(say);
+    //msg.voice = voices[10]; // Note: some voices don't support altering params
+    //msg.voiceURI = 'native';
+    utterance.volume = 1; // 0 to 1
+    utterance.rate = 1; // 0.1 to 10
+    utterance.pitch = 1.2; //0 to 2
+    //utterance.text = 'Hello World';
+    utterance.lang = 'zh-CN';
+    speechSynthesis.speak(utterance);
+  }
+}
 
-// // Execute a function when the user releases a key on the keyboard
-// input.addEventListener("keyup", function (event) {
-//     // Number 13 is the "Enter" key on the keyboard
-//     if (event.keyCode === 13) {
-//         // Cancel the default action, if needed
-//         event.preventDefault();
-//         // Trigger the button element with a click
-//         document.getElementById("myBtn").click();
-//     }
-// });
+//runs the keypress() function when a key is pressed
+document.onkeypress = keyPress;
+//if the key pressed is 'enter' runs the function newEntry()
+function keyPress(e) {
+  var x = e || window.event;
+  var key = (x.keyCode || x.which);
+  if (key == 13 || key == 3) {
+    //runs this function when enter is pressed
+    newEntry();
+  }
+  if (key == 38) {
+    console.log('hi')
+      document.getElementById("chatbox").value = lastUserMessage;
+  }
+}
 
-
+//clears the placeholder text in the chatbox
+//this function is set to run when the users brings focus to the chatbox, by clicking on it
+function placeHolder() {
+  document.getElementById("chatbox").placeholder = "";
+}
