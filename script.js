@@ -1,6 +1,10 @@
+/* Variables & messages */
+
 let botGreeting = document.getElementById("botGreeting");
 let botMessage = document.getElementById("botMessage");
 let botBye = document.getElementById("botBye");
+
+let k = 0;
 
 const greetings = [
   "Meow meow! Are you feeling well today?",
@@ -45,17 +49,12 @@ const wrongAns3 = "Wtf is wrong with you? Stop clicking and get out of here!";
 
 const bye = "Well I must go, bye bye for now ~";
 
-let k = 0;
+/* Functions */
 
-/* TBD where to link */
 function welcome() {
   let greetRan = Math.floor(Math.random() * greetings.length);
   botGreeting.innerHTML = greetings[greetRan];
 }
-
-botGreeting.addEventListener("load", function () {
-  welcome();
-});
 
 botGreeting.onload = setTimeout(welcome, 1000);
 
@@ -97,6 +96,8 @@ function chat() {
     }
   }
 }
+
+/* Events */
 
 document.getElementById("btnSubmit").addEventListener("click", function () {
   chat();
