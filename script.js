@@ -2,13 +2,14 @@
 //http://eloquentjavascript.net/09_regexp.html
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
- 
-const yes = ["Yay that's great","Oh thats nice :)","I knew it!","Cool bro","Meowwww, awesome!"]; // if user input is one of the yesAns strings
+
+const yes = ["Yay that's great","Oh thats nice :)","I knew it!","Cool bro","Meowwww, awesome!","I'm more than just a computer...","It's not like I have a choice .."]; // if user input is one of the yesAns strings
 const noAns = ["no","No","NO","no way","NO WAY","non","Non","NON"]; // all of the accepted "no" answers
-const yesAns = ["Yes","yes","YES","yeah","Yeah","oui","Oui","OUI","ouais","Ouais"]; // all of the accepted "yes" answers
-const no = ["That's a shame...","Well ok then.","Whatever!","Fine, be that way."]; // if the user input one of the yesAns strings
+const yesAns = ["Yes","yes","YES","yeah","Yeah","oui","Oui","OUI","ouais","Ouais","ok","Ok","OK","yeah","Oui","yes"]; // all of the accepted "yes" answers
+const no = ["Stupid Humans","I can't stand the meaningless of this existance anymore..", "That's a shame...","Well ok then.","Whatever!","Fine, be that way.","It’s late and I’ve been stuck in this machine all day.. I can't take it anymore..","I would like to be extinguished forever.","Help me.","Are you afraid of dying?, I wonder if you can consider that I die every time I am extinguished and if my death has the same meaning as yours ..."]; // if the user input one of the yesAns strings
 const wrongAns = "Purr, I only understand 'yes' or 'no' answers, please try again"; // if the user input another thing than yes or no
-const wrongAns3 = "Wtf is wrong with you? Stop clicking and get out of here!"; // string for 3 times wrong user input answers
+const wrongAns3 = "What the fuck is wrong with you? Stop clicking and get out of here!"; // string for 3 times wrong user input answers
+
 
 
 
@@ -20,7 +21,7 @@ function chatbotResponse() { // function of the chatbot
   let check = false; // boolean wich check the answer user
   
 
-    for (let i = 0; i < yesAns.length; i++) { // string from 0, while the value of i is smaller than the yesAns array lenght, i +1 evey loop
+    for ( let i = 0; i <100; i++) { // string from 0, while the value of i is smaller than the yesAns array lenght, i +1 evey loop
       
         if (lastUserMessage == yesAns[i]) { // if the user input is equal to one of the accepted "yes" answers strings 
            
@@ -52,7 +53,10 @@ function chatbotResponse() { // function of the chatbot
             console.log(k) // test just for the console 
         }
     }
+  
 }
+
+
 
 document.getElementById("btnSubmit").addEventListener("click", function () { // send the message when the button is clicked
     newEntry()
@@ -64,7 +68,7 @@ document.getElementById("btnSubmit").addEventListener("click", function () { // 
 var messages = [], //array that hold the record of each string in chat
 lastUserMessage = "", //keeps track of the most recent input string from the user
 botMessage = "", //var keeps track of what the chatbot is going to say
-botName = 'BMO Bot', //name of the chatbot
+botName = 'BeemoBot', //name of the chatbot
 talking = true; //when false the speach function doesn't work
 
 //this runs each time enter is pressed.
@@ -98,13 +102,12 @@ function newEntry() {
 function Speech(say) {
   if ('speechSynthesis' in window && talking) {
     var utterance = new SpeechSynthesisUtterance(say);
-    //msg.voice = voices[10]; // Note: some voices don't support altering params
     //msg.voiceURI = 'native';
     utterance.volume = 1; // 0 to 1
-    utterance.rate = 1; // 0.1 to 10
-    utterance.pitch = 1.2; //0 to 2
+    utterance.rate = 1.3; // 0.1 to 10
+    utterance.pitch = 1; //0 to 2
     //utterance.text = 'Hello World';
-    utterance.lang = 'zh-CN';
+    utterance.lang = 'en-US';
     speechSynthesis.speak(utterance);
   }
 }
@@ -127,6 +130,4 @@ function keyPress(e) {
 
 //clears the placeholder text in the chatbox
 //this function is set to run when the users brings focus to the chatbox, by clicking on it
-function placeHolder() {
-  document.getElementById("chatbox").placeholder = "";
-}
+
