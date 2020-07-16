@@ -9,12 +9,14 @@ __A Chatbot__ to help reduce loneliness in the world, one word at a time.
 
 #### Features
 
-This chatbot includes.... 
+This chatbot includes : 
 
 
 * Multiple greetings...
 * Yes or no responses...
+* A passive-agressive answer...
 * Goodbye message...
+
 
 
 #### Pending changes
@@ -61,7 +63,8 @@ This project was created within three days from 15/07/2020 - 17/07/2020.
 
 ## Screenshot 
 
-# First concept : ![First concept screenshot](Jsconcept.png)
+ First concept :
+![First concept screenshot](Jsconcept.png)
 
 
 
