@@ -44,12 +44,12 @@ This project was created within three days from 15/07/2020 - 17/07/2020.
 
 * HTML
 * CSS
-  * Bootstrap framwork
+* codepen
 * JavaScript
 
 #### Resources
 
-* UI: ......
+* UI: https://codepen.io/mrlapin/pen/oNbaYrg
 * ....
 
 
