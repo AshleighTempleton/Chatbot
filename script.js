@@ -7,7 +7,7 @@ const yes = ["Yay that's great","Oh thats nice :)","I knew it!","Cool bro","Meow
 const noAns = ["no","No","NO","no way","NO WAY","non","Non","NON"]; // all of the accepted "no" answers
 const yesAns = ["Yes","yes","YES","yeah","Yeah","oui","Oui","OUI","ouais","Ouais","yeah","Oui","yes"]; // all of the accepted "yes" answers
 const no = ["Stupid Humans","I can't stand the meaningless of this existance anymore..", "That's a shame...","Well ok then.","Whatever!","Fine, be that way.","It’s late and I’ve been stuck in this machine all day.. I can't take it anymore..","I would like to be extinguished forever.","Help me.","Are you afraid of dying?, I wonder if you can consider that I die every time I am extinguished and if my death has the same meaning as yours ..."]; // if the user input one of the yesAns strings
-const wrongAns = "I dont feel confortable to tell you that, but I only understand 'yes' or 'no' answers, please try again.."; // if the user input another thing than yes or no
+const wrongAns = "I dont feel confortable to tell you that, but I only understand 'yes' or 'no' answers..."; // if the user input another thing than yes or no
 const wrongAns3 = "What the fuck is wrong with you? Stop clicking and get out of here !"; // string for 3 times wrong user input answers
 
 
