@@ -5,7 +5,7 @@
 - Duration: `3 days`
 - Deadline: `17/07/20 H:17PM`
 - Deployment strategy :
-  - Github page : [Demo]('file:///Users/kekevmit/be_code/Javascript/index.html')
+  - Github page : [Demo](https://inesmathy.github.io/BMO_Bot/)
 - Team challenge : Ines Mathy, Mathieu Herbos, Ashleigh Templeton
 
 ## Mission objectives 
