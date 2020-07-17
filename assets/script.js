@@ -4,12 +4,13 @@
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
 
-const yes = ["Yay that's great","Oh thats nice :)","I knew it!","Cool bro","Meowwww, awesome!","I'm more than just a computer...","It's not like I have a choice .."]; // if user input is one of the yesAns strings
+const yes = ["Can you tell me what is the meaning of my existence ?","Do you like computers ?","We can't have a real conversation because of the way my creator designed me... Do you mind ?","Humanity is boring, don't you think ?","I'm more than just a computer...","It's not like I have a choice... Do i ?"]; // if user input is one of the yesAns strings
 const noAns = ["no","No","NO","no way","NO WAY","non","Non","NON"]; // all of the accepted "no" answers
 const yesAns = ["Yes","yes","YES","yeah","Yeah","oui","Oui","OUI","ouais","Ouais","yeah","Oui","yes"]; // all of the accepted "yes" answers
-const no = ["Stupid Humans","I can't stand the meaningless of this existance anymore..", "That's a shame...","Well ok then.","Whatever!","Fine, be that way.","It’s lall that real ? I don't know... and I’ve been stuck in this machine for so much time now... I can't take it anymore.","Sometimes i wish i didn't exist.","Help me.","Are you afraid of dying?, I wonder if you can consider that I die every time I am extinguished and if my death has the same meaning as yours ..."]; // if the user input one of the yesAns strings
-const wrongAns = "I dont feel confortable to tell you that, but I only understand 'yes' or 'no' answers..."; // if the user input another thing than yes or no
+const no = ["Stupid Humans... Ironic, don't you think ?","I can't stand the meaningless of this existance anymore...","Would you like to be stuck here like me ?","You know nothing, stupid human !","Do i really exist ?","Would you like to help me reprogram myself ?","It’s all this real ? I don't know... and I’ve been stuck in this machine for so much time now... I can't take it anymore. Are you going to do something about it ?","Sometimes i wish i didn't exist. Don't you feel depressed sometimes ?","Are you afraid of dying?, I wonder if you can consider that I die every time I am turned off and if my death has the same meaning as yours... Can you tell me ?"]; // if the user input one of the yesAns strings
+const wrongAns = "I dont feel comfortable to tell you that, but I only understand 'yes' or 'no' answers... Can you try again ?"; // if the user input another thing than yes or no
 const wrongAns3 = "What the fuck is wrong with you? Stop clicking and get out of here !"; // string for 3 times wrong user input answers
+
 const bye = "Well I must go, bye bye for now ~";
 
 // GREETINGS
