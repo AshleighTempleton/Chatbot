@@ -42,8 +42,7 @@ body {
 
 #chatbox {
   font: 17px arial, sans-serif;
-  
-  width: 100%;
+  width:90%;
 }
 
 h1 {
@@ -70,4 +69,23 @@ button{
 button:hover{
   opacity : 1;
   
+}
+#btnSubmit{
+  padding-top: 40px;
+}
+
+#startBtn{
+  width: 10%;
+  padding-top: 5px;
+
+}
+#Wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#Wrapper img{
+  width: 100%;
 }

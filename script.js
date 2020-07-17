@@ -157,5 +157,10 @@ function keyPress(e) {
   }
 }
 
+
+//BUTTON TEST
+document.getElementById("startBtn").addEventListener("click", function () {
+    newEntry();
+  });
 //clears the placeholder text in the chatbox
 //this function is set to run when the users brings focus to the chatbox, by clicking on it
