@@ -83,14 +83,13 @@ The team consistently updated the whiteboard featured below with necessary tasks
 
 * HTML
 * CSS
-  * Bootstrap
 * JavaScript
 
 ### Resources
 
 * UI: ....
-* BMO image ...
-* Social 
+* [BMO image](https://www.pinterest.at/pin/103864335143891832/)
+* [Text to Speech](http://eloquentjavascript.net/09_regexp.html)
 
 
 ## Who
