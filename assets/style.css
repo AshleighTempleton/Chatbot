@@ -70,12 +70,12 @@ button:hover{
   opacity : 1;
   
 }
-#btnSubmit{
+#button_link{
   padding-top: 40px;
   
 }
 
-#startBtn{
+#button_start{
   width: 10%;
   padding-top: 5px;
 
@@ -97,6 +97,10 @@ button:hover{
   align-items: center;
 }
 
+#Wrapper2 img{
+  width: 85%;
+}
+
 a:link{
   color: black;
   text-decoration: none;
@@ -107,6 +111,11 @@ a{
 }
 
 h2{
-  font-size: 13px;
+  font-size: 14px;
   font: arial, sans-serif;
+}
+h1{
+  font-size: 25px;
+  font: arial, sans-serif;
+  text-align: center;
 }
