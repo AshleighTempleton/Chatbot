@@ -35,10 +35,10 @@ This chatbot features:
 To begin, we chose the following UI as a concept to work with.
 However, the HTML and CSS code was long and complicated with a lot of nested div tags, which became confusing when doing an initial merge with the JavaScript file.
 
-![first concept](first_concept.jpg)
+![first concept](assets/images/first_concept.jpg)
 
 We then used a much simpler UI in which to fully test and to modify the JavaScript code before completing the styling.
-![second concept](second_concept.jpg)
+![second concept](assets/images/second_concept.jpg)
 
 After finalising the styling and any necessary changes, we completed the final product:
 
@@ -76,7 +76,7 @@ The project was completed in a group of three persons who worked together at eac
 
 The team consistently updated the whiteboard featured below with necessary tasks as the project progressed.
 
-![whiteboard](tasks.jpg)
+![whiteboard](assets/images/tasks.jpg)
 
 
 ### Languages & tools
