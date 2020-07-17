@@ -75,8 +75,8 @@ function chatbotResponse() { // function of the chatbot
 
 //********** HEAD
 
-document.getElementById("button_link").addEventListener("click", function () { // send the message when the button is clicked
-    newEntry()
+document.getElementById("button_start").addEventListener("click", function () { // send the message when the button is clicked
+  newEntry()
 });
 
 // 480b6e8cd96baae5c317317ac342ea52667dea28
@@ -153,8 +153,8 @@ document.getElementById("startBtn").addEventListener("click", function () {
 });
 //*******
 document.getElementById("button_start").addEventListener("click", function () {
-    newEntry();
-  });
+  newEntry();
+});
 //************ 480b6e8cd96baae5c317317ac342ea52667dea28
 //clears the placeholder text in the chatbox
 //this function is set to run when the users brings focus to the chatbox, by clicking on it
