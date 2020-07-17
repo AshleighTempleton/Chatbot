@@ -26,12 +26,11 @@ This chatbot features:
 ### Pending changes
 
 * Allowing the user to *shift-enter* 
-* Adding a sound notification upon receiving a message
-* ...
+* Shift-Enter to go to new line
+* In progress animation
+* More chat input options & bot responses
 
 ### Concept
-
-#### Working concept 
 
 To begin, we chose the following UI as a concept to work with.
 However, the HTML and CSS code was long and complicated with a lot of nested div tags, which became confusing when doing an initial merge with the JavaScript file.
@@ -49,6 +48,7 @@ ADD IMAGE HERE WITH FINAL SCREENSHOT
 
 This project was a challenge posed by BeCode as part of the formation in Web Development. 
 The project was developed to consolidate our knowledge of JS and its integration with HTML & CSS. 
+With this we also continue our development in team work, project management, and git. 
 
 ## When
 
@@ -65,7 +65,7 @@ This project was created within three days from 15/07/2020 - 17/07/2020.
   * Establishing a list of potential bonus features 
  
 * Day 3:
-  * Adding final bonus features
+  * Finishing last coding edits
   * Ensuring all code is functioning well by the afternoon 
   * Cleaning code 
   * Finalising GitHub documents & readme for final submit
@@ -73,11 +73,8 @@ This project was created within three days from 15/07/2020 - 17/07/2020.
 ## How
 
 The project was completed in a group of three persons who worked together at each phase to complete the project. 
-While many things were changed over the course of the project, the team consulted each other. 
 
-The team aimed to make their code as understandable as posisble so the next team member could edit it/ integrate thier changes without issue. 
-
-The whiteboard was consistently updated with tasks as the project progressed.
+The team consistently updated the whiteboard featured below with necessary tasks as the project progressed.
 
 ![whiteboard](tasks.jpg)
 
@@ -91,8 +88,9 @@ The whiteboard was consistently updated with tasks as the project progressed.
 
 ### Resources
 
-* UI: [Bootsnipp](https://bootsnipp.com/snippets/1ea0N)
-* ....
+* UI: ....
+* BMO image ...
+* Social 
 
 
 ## Who
@@ -100,8 +98,3 @@ The whiteboard was consistently updated with tasks as the project progressed.
 * Ines Mathy
 * Mathieu Herbos
 * Ashleigh Templeton
-
-
-
-
-
