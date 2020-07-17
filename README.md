@@ -49,26 +49,26 @@ At the end of this challenge you should have improved your:
 
 ### Steps
 
-#### Phase 1
+##### Phase 1
 
 - [x] Create prototype UI html/css
 - [x] Create js script
 - [x] link html with js
 
-#### Phase 2
+##### Phase 2
 
 - [x] modifying UI Design
-- [] Adding basic Bonus features
-- [] Adding more conversation to Bot
+- [ ] Adding basic Bonus features
+- [ ] Adding more conversation to Bot
 
 
-#### Phase 3
+##### Phase 3
 
-- [] Finishing UI Design & validating javascript
-- [] Testing web site on W33
-- [] Testing web site on Lighthouse
+- [ ] Finishing UI Design & validating javascript
+- [ ] Testing web site on W33
+- [ ] Testing web site on Lighthouse
 
-## Evaluation criterias
+# Evaluation criterias
 
 | Criteria       | Indicator                                                    | Yes/No |
 | -------------- | ------------------------------------------------------------ | ------ |
