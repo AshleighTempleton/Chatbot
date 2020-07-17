@@ -8,13 +8,15 @@
   - Github page : [Demo](https://inesmathy.github.io/BMO_Bot/)
 - Team challenge : Ines Mathy, Mathieu Herbos, Ashleigh Templeton
 
+
 ## Mission objectives 
 
 At the end of this challenge you should have improved your:
 
 - **JavaScript** skills
 - team skills
-- git conflict skills
+- **git** conflict skills
+
 
 ## The Mission
 
@@ -32,11 +34,13 @@ At the end of this challenge you should have improved your:
   - if the script cannot find a "yes" or a "no" in the message after three attempts, the bot begins to be mad and use "passive-agressive" answer, like "dude, are you sure you can read?"
 - After this answer, the bot has finish his routine. He says "bye" to the user and the textarea go to `disabled` mode.
 
+
 ### Bonus features
 
 - support _multi-line_ messages: by typing `SHIFT+ENTER`, you create a new line in the textarea.
 - add "in progress" animation and timeout to simulate "bot thinking"
 - You can try to make the bot more "real" by having more possible answers to interact with the user.
+
 
 ## Deliverables
 
@@ -46,6 +50,8 @@ At the end of this challenge you should have improved your:
    - Pending things to do
    - It must contain a link to the "live" version. The "live" version must contain a link to the source code on GitHub.
 3. Publish the link to the "live" version on Discord.
+
+
 
 ### Steps
 
@@ -68,6 +74,8 @@ At the end of this challenge you should have improved your:
 - [ ] Testing web site on W33
 - [ ] Testing web site on Lighthouse
 
+
+
 # Evaluation criterias
 
 | Criteria       | Indicator                                                    | Yes/No |
@@ -78,6 +86,9 @@ At the end of this challenge you should have improved your:
 | 2. Is Correct  | The HTML and CSS pass the W3C Validation tool.               |        |
 |                | The lighthouse test scores 90 at least on Performance, Best Practices, Accessibility and SEO. |        |
 |                | The indentation is perfect                                   |        |
+
+
+
 
 
 <img src="https://raw.githubusercontent.com/inesmathy/chatbot/master/BMO-btn.png"/>
