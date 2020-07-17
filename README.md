@@ -23,26 +23,34 @@ This chatbot features:
 
 * Allowing the user to use the *submit button* or the *Enter key* to submit their response
 
-### Pending changes
 
-* Allowing the user to *shift-enter* 
+#### Other
+
+* Text to speech for each bot response
+* Button to the GitHub repository 
+* A friendly BMO to light up your day
+
+### Future updates
+
 * Shift-Enter to go to new line
-* In progress animation
+* *In progress* animation
 * More chat input options & bot responses
+* Styling updates
 
 ### Concept
 
 To begin, we chose the following UI as a concept to work with.
-However, the HTML and CSS code was long and complicated with a lot of nested div tags, which became confusing when doing an initial merge with the JavaScript file.
+However, the HTML and CSS code was long and complicated with a lot of nested div tags, each with their own class and/or ID, which became confusing when doing an initial merge with the JavaScript file.
 
 ![first concept](assets/images/first_concept.jpg)
 
 We then used a much simpler UI in which to fully test and to modify the JavaScript code before completing the styling.
+
 ![second concept](assets/images/second_concept.jpg)
 
-After finalising the styling and any necessary changes, we completed the final product:
+After finalising the styling and any necessary changes, we completed the final product.
 
-ADD IMAGE HERE WITH FINAL SCREENSHOT
+![third concept](assets/images/third_concept.jpg)
 
 ## Why
 
@@ -73,7 +81,6 @@ This project was created within three days from 15/07/2020 - 17/07/2020.
 ## How
 
 The project was completed in a group of three persons who worked together at each phase to complete the project. 
-
 The team consistently updated the whiteboard featured below with necessary tasks as the project progressed.
 
 ![whiteboard](assets/images/tasks.jpg)
@@ -87,7 +94,7 @@ The team consistently updated the whiteboard featured below with necessary tasks
 
 ### Resources
 
-* UI: ....
+* [UI template](https://codepen.io/mrlapin/pen/rNxQBaz)
 * [BMO image](https://www.pinterest.at/pin/103864335143891832/)
 * [Text to Speech](http://eloquentjavascript.net/09_regexp.html)
 
@@ -97,3 +104,5 @@ The team consistently updated the whiteboard featured below with necessary tasks
 * Ines Mathy
 * Mathieu Herbos
 * Ashleigh Templeton
+
+![BMO](assets/images/BMO.png)
