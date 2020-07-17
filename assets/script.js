@@ -147,7 +147,7 @@ function keyPress(e) {
 
 
 //BUTTON TEST
-//***** */ HEAD
+//*******  HEAD
 document.getElementById("startBtn").addEventListener("click", function () {
   newEntry();
 });
