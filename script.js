@@ -130,4 +130,3 @@ function keyPress(e) {
 
 //clears the placeholder text in the chatbox
 //this function is set to run when the users brings focus to the chatbox, by clicking on it
-
