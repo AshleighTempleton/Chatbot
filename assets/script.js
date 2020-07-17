@@ -88,7 +88,7 @@ function chatbotResponse() { // function of the chatbot
 
 
 
-document.getElementById("btnSubmit").addEventListener("click", function () { // send the message when the button is clicked
+document.getElementById("linkButton").addEventListener("click", function () { // send the message when the button is clicked
     newEntry()
 });
 
@@ -160,7 +160,7 @@ function keyPress(e) {
 
 
 //BUTTON TEST
-document.getElementById("startBtn").addEventListener("click", function () {
+document.getElementById("startButton").addEventListener("click", function () {
     newEntry();
   });
 //clears the placeholder text in the chatbox
