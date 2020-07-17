@@ -29,6 +29,14 @@ This chatbot features:
 * Adding a sound notification upon receiving a message
 * ...
 
+### Concept
+
+#### Working concept 
+
+The prototype that we worked with to modify the JavaScript code before completing the styling.
+![original concept](concept chatbot.jpg)
+
+
 
 ## Why
 
@@ -62,6 +70,11 @@ While many things were changed over the course of the project, the team consulte
 
 The team aimed to make their code as understandable as posisble so the next team member could edit it/ integrate thier changes without issue. 
 
+The whiteboard was consistently updated with tasks as the project progressed.
+
+![whiteboard](tasks.jpg)
+
+
 ### Languages & tools
 
 * HTML
@@ -81,10 +94,7 @@ The team aimed to make their code as understandable as posisble so the next team
 * Mathieu Herbos
 * Ashleigh Templeton
 
-## Screenshot 
 
- First concept :
-![First concept screenshot](Jsconcept.png)
 
 
 
