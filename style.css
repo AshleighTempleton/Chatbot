@@ -75,5 +75,24 @@ button:hover{
   padding-top: 40px;
 }
 
+#startBtn{
+  width: 10%;
+  padding-top: 5px;
+
+}
+#Wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#chatbox{
+  width:90%;
+
+}
+
+#Wrapper img{
+  width: 100%;
+}
+
 
 
