@@ -34,7 +34,7 @@ This chatbot features:
 #### Working concept 
 
 The prototype that we worked with to modify the JavaScript code before completing the styling.
-![original concept](concept chatbot.jpg)
+![original concept](concept_chatbot.jpg)
 
 
 
