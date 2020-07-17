@@ -70,12 +70,12 @@ button:hover{
   opacity : 1;
   
 }
-#linkButton{
+#button_link{
   padding-top: 40px;
   
 }
 
-#startButton{
+#button_start{
   width: 10%;
   padding-top: 5px;
 
