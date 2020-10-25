@@ -1,6 +1,6 @@
 # Chatbot
 
-[Click here for the live website](https://ashleightempleton.github.io/Javascript/)
+[Click here for the live website](https://ashleightempleton.github.io/Chatbot/)
 
 ## What
 
